@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  //   "editor.defaultFormatter": "<another formatter>",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  //   "cucumberautocomplete.formatConfOverride": {},
+  "cucumberautocomplete.customParameters": [],
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  
+  "cucumberautocomplete.steps": ["cypress/support/step_definitions/*.js"],
+  "cucumberautocomplete.strictGherkinValidation": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.skipDocStringsFormat": true,
+  "cucumber.features": [
+    "cypress/e2e/**/*.feature",
+  ],
+  "cucumber.glue": [
+    "cypress/support/step_definitions/**/*.js",
+  ],
+  "cucumberautocomplete.onTypeFormat": true,
+  "editor.quickSuggestions": {
+      "comments": false,
+      "strings": true,
+      "other": true
+  },
+}

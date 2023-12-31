@@ -1,0 +1,21 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Osakoh",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@cucumber/gherkin-utils": "^8.0.5",
+    "cypress": "^12.14.0",
+    "ts-loader": "^9.5.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}
